@@ -1,2 +1,2 @@
-# n8n
-setting up n8n in docker
+# n8n guide
+setting up n8n in docker with postgres and ollama
