@@ -7,6 +7,8 @@ services:
       POSTGRES_USER: n8n
       POSTGRES_PASSWORD: n8n_password
       POSTGRES_DB: n8n
+    ports:
+      - "5432:5432"  # Map host's port 5432 to the container's port 5432
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
